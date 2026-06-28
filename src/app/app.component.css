@@ -1,0 +1,29 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 300px); 
+  gap: 20px;
+}
+
+.box {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background: rgb(255, 254, 254);
+
+  box-shadow: 0 6px 15px rgba(20, 83, 255, 0.15);
+  transition: all 0.3s ease;
+}
+.box:hover {
+  transform: scale(1.05);
+  background: #3498db
+}
+
+.btn-pdf {
+  margin-top: 30px;
+  display: block; 
+}
+.btn-pdf:hover {
+  transform: scale(1.05);
+  background: #3498db
+}
